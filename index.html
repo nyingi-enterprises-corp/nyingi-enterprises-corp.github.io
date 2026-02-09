@@ -1,10 +1,175 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nyingi Enterprises Corp. | AI & Machine Learning Solutions</title>
+    <style>
+        :root {
+            --navy: #002347;
+            --gold: #c5a02c;
+            --light: #f8f9fa;
+            --dark: #333;
+            --white: #ffffff;
+        }
+
+        body { font-family: 'Inter', system-ui, -apple-system, sans-serif; margin: 0; line-height: 1.6; color: var(--dark); background-color: var(--white); }
+        
+        /* Navigation/Header */
+        header { background: var(--navy); color: var(--white); padding: 60px 20px; text-align: center; }
+        .container { max-width: 1100px; margin: auto; padding: 0 20px; }
+        
+        h1 { margin: 0; font-size: 2.8rem; letter-spacing: -1px; }
+        .tagline { color: var(--gold); font-weight: 600; text-transform: uppercase; letter-spacing: 2px; margin-top: 10px; }
+
+        /* Sections */
+        section { padding: 60px 0; border-bottom: 1px solid #eee; }
+        .section-title { color: var(--navy); border-left: 5px solid var(--gold); padding-left: 15px; margin-bottom: 30px; text-transform: uppercase; font-size: 1.5rem; }
+
+        /* Grids */
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .card { background: var(--light); padding: 25px; border-radius: 8px; }
+        .card h3 { color: var(--navy); margin-top: 0; }
+
+        /* Lists */
+        ul { padding-left: 20px; }
+        li { margin-bottom: 10px; }
+
+        /* Business Identifiers */
+        .biz-badges { display: flex; flex-wrap: wrap; gap: 15px; margin-top: 20px; }
+        .badge { background: var(--navy); color: white; padding: 5px 15px; border-radius: 20px; font-size: 0.85rem; font-weight: bold; }
+
+        /* Contact Section */
+        .contact-box { background: var(--navy); color: white; padding: 40px; border-radius: 12px; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; }
+        .contact-box h2, .contact-box h3 { color: var(--gold); margin-top: 0; }
+        .contact-box a { color: white; text-decoration: underline; }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            section { padding: 40px 0; }
+        }
+    </style>
+</head>
 <body>
 
-<title>Nyingi Enterprises Corp.</title>
+<header>
+    <div class="container">
+        <h1>Nyingi Enterprises Corp.</h1>
+        <div class="tagline">Intelligence. Innovation. Integrity.</div>
+        <p style="max-width: 800px; margin: 20px auto; font-size: 1.1rem; opacity: 0.9;">
+            A woman-owned startup providing end-to-end AI/ML services from ideation to production deployment for government and commercial sectors.
+        </p>
+        <div class="biz-badges" style="justify-content: center;">
+            <span class="badge">Woman Owned</span>
+            <span class="badge">Minority Owned</span>
+            <span class="badge">UEI: V1Q7UE8UBVY6</span>
+            <span class="badge">CAGE: 9SRW4</span>
+        </div>
+    </div>
+</header>
 
-<embed src="Capabilities_Statement_3-20-2024.pdf" height="1400" width="1000">
+<div class="container">
+
+    <section id="mission">
+        <h2 class="section-title">Mission Statement</h2>
+        <p>Our work is guided by five core values: <strong>Excellence in execution, Customer satisfaction, Innovation as a mandate, Trust in each other, and Respect for all.</strong></p>
+    </section>
+
+    <section id="services">
+        <div class="grid">
+            <div>
+                <h2 class="section-title">Services</h2>
+                <ul>
+                    <li>AI/ML Research and Ideation</li>
+                    <li>AI/ML Design and Implementation</li>
+                    <li>Infrastructure and Model Deployment</li>
+                    <li>End-to-end AI/ML Life Cycle Management</li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="section-title">Technologies</h2>
+                <ul>
+                    <li>Large Language Models (LLMs)</li>
+                    <li>Machine Learning Ops (MLOps)</li>
+                    <li>Digital Transformation</li>
+                    <li>ML Infrastructure & Cloud Services</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="performance" style="background: #fdfdfd;">
+        <h2 class="section-title">Past Performance & Achievements</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Financial Efficiency</h3>
+                <p>Built an automated Intelligent Document Processing system using AI/ML, saving a financial customer over $4 million.</p>
+            </div>
+            <div class="card">
+                <h3>Research Leadership</h3>
+                <p>Executed a $600k research grant as Principal Investigator for synthetic radar imagery of military vehicles.</p>
+            </div>
+            <div class="card">
+                <h3>Academic Excellence</h3>
+                <p>Authored/Co-authored 15+ academic papers; selected for NSF Seed Funding (SBIR) for LLM performance improvements.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2 class="section-title">The Nyingi Advantage</h2>
+        <p>Our leadership brings over 25 years of combined industry experience, including 12+ years specializing in AI/ML for government research labs and defense contractors.</p>
+        <div class="grid">
+            <div>
+                <h3>Experience</h3>
+                <ul>
+                    <li>CTO holds a PhD in Physics</li>
+                    <li>Deep expertise in government laboratory environments</li>
+                    <li>CEO with proven track record in startup foundation</li>
+                    <li>20+ publications and conference presentations</li>
+                </ul>
+            </div>
+            <div>
+                <h3>NAICS Codes</h3>
+                <ul>
+                    <li><strong>541511:</strong> Custom Computer Programming</li>
+                    <li><strong>541519:</strong> Other Computer Related Services</li>
+                    <li><strong>541715:</strong> R&D in Physical, Engineering, and Life Sciences</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-box">
+            <div>
+                <h2>Let's Talk</h2>
+                <p>Request a no-obligation chat about how AI/ML can help your organization.</p>
+                <p><strong>Office:</strong><br>9 Mayflower Ln, Shelton, CT 06484</p>
+                <p><em>We accept Credit Card payments.</em></p>
+            </div>
+            <div>
+                <h3>Leadership</h3>
+                <p><strong>Teresa Coon</strong>, Founder & CEO<br>
+                <a href="mailto:terry_nyingi@yahoo.com">terry_nyingi@yahoo.com</a></p>
+                
+                <p><strong>Joshua Coon</strong>, Co-founder & CTO<br>
+                <a href="mailto:joshua.coon@nyingienterprises.com">joshua.coon@nyingienterprises.com</a><br>
+                Phone: 801-427-1285</p>
+            </div>
+        </div>
+    </section>
+
+    <div style="text-align: center; padding: 20px;">
+        <a href="Capabilities_Statement_3-20-2024.pdf" style="color: var(--navy); font-weight: bold;">Download Full PDF Capabilities Statement</a>
+    </div>
+
+</div>
+
+<footer style="background: #eee; text-align: center; padding: 20px; font-size: 0.8rem;">
+    &copy; 2026 Nyingi Enterprises Corp.
+</footer>
 
 </body>
-</html> 
+</html>
